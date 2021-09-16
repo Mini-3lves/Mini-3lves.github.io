@@ -1,0 +1,134 @@
+/*/ Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+SC:ital@1&family=Montserrat+Alternates:wght@200&display=swap');
+
+body{
+    background-color: gray;
+    background: url(https://images.unsplash.com/photo-1516617442634-75371039cb3a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cGhvdG8lMjBiYWNrZ3JvdW5kfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+   }
+
+#content-container{
+    position:relative;
+    margin:100px;
+    padding:20px;
+    border:2px solid black;
+border-radius: 10px;
+/*background-image:linear-gradient(to right, #ec9f05, #ff4e00
+    );*/
+background-color: aqua;
+opacity:0.8;
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+
+h1 {
+    font-weight: bold;
+    margin-bottom: 40px;
+   
+    padding:10px;
+  }
+.center{
+text-align:center;
+}
+p#dev-mes{
+  font-family: 'Alegreya SC', serif;
+  font-size:24px;
+}
+
+  p{
+    font-weight:bold;
+       
+    
+  }
+
+.btn-outline {
+    color: #4fbfa8;
+    background-color: #ffffff;
+    /*border:2px solid black;*/
+    
+    font-weight: bold;
+    letter-spacing: 0.05em;
+    border-radius: 0;
+  }
+  
+  /*.btn-outline {
+    color: #4fbfa8;
+    background-color: #ffffff;
+    border-color: #4fbfa8;
+    font-weight: bold;
+    
+  }*/
+  
+  .btn-outline:hover,
+  .btn-outline:active,
+  .btn-outline:focus,
+  .btn-outline.active {
+    background: #4fbfa8;
+    color: #ffffff;
+    border-color: #4fbfa8;
+    
+  }
+  
+  
+  .btn-color-1 {
+    color: #fff;
+    background-color: #004E64;
+    border-color: #004E64;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+    border-radius: 0;
+  }
+  
+  .btn-color-1:hover,
+  .btn-color-1:active,
+  .btn-color-1:focus,
+  .btn-color-1.active {
+    /* darken #004E64 a bit for hover effect */
+    background: #00607e;
+    color: #ffffff;
+    border-color: #003D4F;
+  }
+  
+  
+  .font-awesome-container{
+    display: flex;
+    justify-content:space-evenly;
+    font-size: 50px;
+
+}
+
+.fab{
+  color:#ff4e00 /*!important*/;
+}
+
+a:link {
+    color: black;
+
+}
+
+a:active{
+    text-decoration: none;
+}
+ 
+a:hover{
+    text-decoration: none;
+}
+ 
+  
+  
